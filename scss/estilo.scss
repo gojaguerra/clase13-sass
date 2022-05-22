@@ -103,7 +103,7 @@ tr:nth-child(even) {
 
     /* POSICION DEL MENSAJE DE LA SECCION */
     align-content: flex-end;
-    height: 550px;
+    height: $height-cabecera;
 
     h1 {
         font-family: 'Roboto', sans-serif;
