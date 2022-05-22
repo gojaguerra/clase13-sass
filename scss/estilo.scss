@@ -106,7 +106,7 @@ tr:nth-child(even) {
     height: $height-cabecera;
 
     h1 {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font-family-cabecera;
         font-size: $font-size-cabecera;
         text-align: left;
         width: 40%;
@@ -151,20 +151,17 @@ tr:nth-child(even) {
 }
 
 .h3FotosInicio {
-    /* background-color: #E4E4E0; */
-    /* height: 300px; */
     width: 800px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-family: $font-family-inicio;
+    font-size: $font-size-inicio;
     padding: 2px;
 
-    /* border: black solid; */
 }
 
 .hijoFotosInicio {
     p {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font-family-inicio;
         padding: 3px;
     }
 

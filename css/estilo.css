@@ -166,7 +166,7 @@ tr:nth-child(even) {
   align-content: flex-end;
   height: 550px; }
   .seccionesCabecera h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 4rem;
     text-align: left;
     width: 40%;
@@ -201,17 +201,14 @@ tr:nth-child(even) {
   /* border: black solid; */ }
 
 .h3FotosInicio {
-  /* background-color: #E4E4E0; */
-  /* height: 300px; */
   width: 800px;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
-  padding: 2px;
-  /* border: black solid; */ }
+  padding: 2px; }
 
 .hijoFotosInicio p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 3px; }
 
 .hijoFotosInicio img {
