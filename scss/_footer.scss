@@ -4,11 +4,12 @@ footer {
 }
 
 .footerStyle {
+  @include footerDisplay;
   background: #898b87;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   align-items: flex-start;
 
   .footerCenter {
@@ -20,8 +21,9 @@ footer {
     padding: 15px 0;
 
     .footerBrand {
-      display: flex;
-      justify-content: center;
+      @include footerDisplay;
+      /*display: flex;
+      justify-content: center;*/
       align-items: center;
       color: azure;
       font-size: 20px;
@@ -37,8 +39,9 @@ footer {
 }
 
 .footerNav .footerItem {
-  display: flex;
-  justify-content: center;
+  @include footerDisplay;
+  /*display: flex;
+  justify-content: center;*/
   align-items: center;
   width: 35px;
   height: 35px;

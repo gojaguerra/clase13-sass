@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import "variables";
+@import "sass2";
 @import "header";
 @import "footer";
 
@@ -20,11 +21,11 @@ h1 {
 }
 
 h2 {
+
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
 
-    /* background-color: #2C73D2; */
     padding: 5px;
     border: 1px;
 }
@@ -34,8 +35,6 @@ h3 {
     font-family: 'Roboto', sans-serif;
     padding: 3px;
 
-    /* background-color: #0089BA; */
-    /* font-size: 2rem; */
 }
 
 a {
@@ -111,13 +110,8 @@ tr:nth-child(even) {
         text-align: left;
         width: 40%;
         margin: 1%;
-
-        /* height: 500px; */
         color: $color-text-cabecera;
 
-        /* border: #3fbbc0 solid; */
-        /* padding-top: 100px; */
-        /* padding: 15px; */
     }
 }
 
@@ -131,14 +125,12 @@ tr:nth-child(even) {
     margin: auto;
     flex-flow: row wrap;
 
-    /* justify-content: flex-start; */
     justify-content: space-between;
     align-items: center;
     align-content: flex-start;
     padding: 15px;
     max-width: 1200;
 
-    /* border: black solid; */
 }
 
 .hijoFotosInicio {
@@ -177,7 +169,7 @@ tr:nth-child(even) {
     max-width: 1200;
 
     /* width: 99%; */
-    border: 1px E4E4E0 solid;
+    border: 1px #E4E4E0 solid;
     border-radius: 4px;
     padding: 10px;
     margin-left: 1%;
@@ -259,8 +251,6 @@ tr:nth-child(even) {
     border-radius: 4px;
     color: #fff;
 
-    /* background-color: #3fbbc0; */
-    /* Cambios -- Clase 8 */
     background-image: linear-gradient(to right, #3fbbc0, #0083B0);
 
     &:hover {
@@ -425,7 +415,3 @@ footer {
         width: 80%;
     }
 }
-
-/* .carousel-item img {
-      width: 50%;
-  } */

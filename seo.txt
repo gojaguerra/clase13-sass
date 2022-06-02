@@ -1,0 +1,15 @@
+Agregue ALT a las imagenes
+Agregue META DESCRIPTION en cada pagina
+Acomode los titulos en cada pagina
+Revise que haya un H1 en cada página
+
+>>HOJA de estilo SASS2.SCSS
+
+EXTEND
+Agregado en los h1 (clase .tituloH1) de la pagina de index
+
+MAPS
+Cargue variables que fui a buscar para la clase de titulos
+
+MIXING
+Lo aplique en el footer
