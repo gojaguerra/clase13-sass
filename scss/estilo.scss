@@ -167,16 +167,13 @@ tr:nth-child(even) {
 .h3Productos {
     background-color: #E4E4E0;
     max-width: 1200;
-
-    /* width: 99%; */
     border: 1px #E4E4E0 solid;
     border-radius: 4px;
     padding: 10px;
-    margin-left: 1%;
+    /*margin-left: 1%;*/
     margin-top: 1%;
-    width: 96%;
+    /*width: 96%;*/
 
-    /* margin-right: 10px; */
 }
 
 .cajaFotosProductos {
@@ -341,16 +338,16 @@ tr:nth-child(even) {
     img {
         margin-left: 2%;
     }
+
+    p {
+        padding: 1%;
+    }
 }
 
 p,
 .youtubeQuienesSomos iframe {
     margin-left: 2%;
 }
-
-/* .youtubeQuienesSomos {
-      background:#E4E4E0;
-  } */
 
 #idCocinas {
     grid-area: idCocinas;
@@ -394,7 +391,7 @@ footer {
     }
 
     .h3Productos {
-        width: 96%;
+        width: 100%;
     }
 
     .h3FotosInicio h3 {
