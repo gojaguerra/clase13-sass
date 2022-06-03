@@ -191,7 +191,8 @@ tr:nth-child(even) {
   align-items: center;
   align-content: flex-start;
   padding: 15px;
-  max-width: 1200; }
+  max-width: 1200;
+  margin-top: 1%; }
 
 .hijoFotosInicio {
   width: 400px;
@@ -317,7 +318,8 @@ tr:nth-child(even) {
   align-items: flex-start;
   align-content: flex-start;
   padding: 15px;
-  max-width: 1200; }
+  max-width: 1200;
+  margin-top: 1%; }
 
 .mapaGoogle iframe {
   margin-left: 5px; }
