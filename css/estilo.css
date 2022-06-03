@@ -182,7 +182,7 @@ tr:nth-child(even) {
 /* 
       PAGINA INICIO
    */
-.cajaFotosInicio {
+.cajaFotosInicio, .cajaFotosSomos {
   display: flex;
   background: #E4E4E0;
   margin: auto;
@@ -194,22 +194,22 @@ tr:nth-child(even) {
   max-width: 1200;
   margin-top: 1%; }
 
-.hijoFotosInicio {
+.hijoFotosInicio, .hijoFotosSomos {
   width: 400px;
   border-radius: 4px; }
 
-.h3FotosInicio {
+.h3FotosInicio, .h3FotosSomos {
   width: 800px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   padding: 2px; }
 
-.hijoFotosInicio p {
+.hijoFotosInicio p, .hijoFotosSomos p {
   font-family: "Roboto", sans-serif;
   padding: 3px; }
 
-.hijoFotosInicio img {
+.hijoFotosInicio img, .hijoFotosSomos img {
   width: 95%;
   padding: 1px;
   margin-left: 6px;
@@ -386,15 +386,15 @@ footer {
     width: 90%;
     height: 90%;
     font-size: 3rem; }
-  .cajaFotosInicio {
+  .cajaFotosInicio, .cajaFotosSomos {
     flex-flow: column wrap;
     padding: 1%;
     align-items: stretch; }
-  .h3FotosInicio {
+  .h3FotosInicio, .h3FotosSomos {
     width: auto; }
   .h3Productos {
     width: 100%; }
-  .h3FotosInicio h3 {
+  .h3FotosInicio h3, .h3FotosSomos h3 {
     font-size: 1rem; }
   .quienesSomos img {
     width: 96%; }

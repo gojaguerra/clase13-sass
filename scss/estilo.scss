@@ -119,12 +119,11 @@ tr:nth-child(even) {
       PAGINA INICIO
    */
 
-.cajaFotosInicio {
+.cajaFotosInicio, .cajaFotosSomos {
     display: flex;
     background: #E4E4E0;
     margin: auto;
     flex-flow: row wrap;
-
     justify-content: space-between;
     align-items: center;
     align-content: flex-start;
@@ -134,13 +133,13 @@ tr:nth-child(even) {
 
 }
 
-.hijoFotosInicio {
+.hijoFotosInicio, .hijoFotosSomos {
     width: 400px;
     border-radius: 4px;
 
 }
 
-.h3FotosInicio {
+.h3FotosInicio, .h3FotosSomos {
     width: 800px;
     border-radius: 4px;
     font-family: $font-family-inicio;
@@ -149,7 +148,7 @@ tr:nth-child(even) {
 
 }
 
-.hijoFotosInicio {
+.hijoFotosInicio, .hijoFotosSomos {
     p {
         font-family: $font-family-inicio;
         padding: 3px;
@@ -382,13 +381,13 @@ footer {
         font-size: 3rem;
     }
 
-    .cajaFotosInicio {
+    .cajaFotosInicio, .cajaFotosSomos {
         flex-flow: column wrap;
         padding: 1%;
         align-items: stretch;
     }
 
-    .h3FotosInicio {
+    .h3FotosInicio, .h3FotosSomos {
         width: auto;
     }
 
@@ -396,7 +395,7 @@ footer {
         width: 100%;
     }
 
-    .h3FotosInicio h3 {
+    .h3FotosInicio h3, .h3FotosSomos h3 {
         font-size: 1rem;
     }
 
