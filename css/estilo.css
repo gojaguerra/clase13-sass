@@ -144,7 +144,6 @@ tr:nth-child(even) {
   list-style-type: none;
   font-weight: lighter;
   border: 0px;
-  /* color: red; */
   display: grid; }
 
 /* 
@@ -162,8 +161,7 @@ tr:nth-child(even) {
   background-image: url(../img/imagenFondo.jpg);
   background-size: cover;
   background-position-y: center;
-  height: calc(100vh-80px);
-  /* width: calc(100vw); */ }
+  height: calc(100vh-80px); }
 
 .seccionesCabecera {
   display: flex;
@@ -381,11 +379,19 @@ footer {
 /* 
       MEDIA QUERIES
   */
+@media screen and (max-width: 600px) {
+  .cajaAnimada {
+    display: none; } }
+
 @media screen and (max-width: 900px) {
+  .seccionesCabecera {
+    align-items: flex-end;
+    flex-flow: column wrap; }
   .seccionesCabecera h1 {
     width: 90%;
     height: 90%;
-    font-size: 3rem; }
+    font-size: 3rem;
+    /*color: whitesmoke;*/ }
   .cajaFotosInicio, .cajaFotosSomos {
     flex-flow: column wrap;
     padding: 1%;
