@@ -328,10 +328,7 @@ tr:nth-child(even) {
    */
 
 .quienesSomos {
-    /* display: flex; */
     background: #E4E4E0;
-
-    /* background-image: linear-gradient(to right, #eacda3, #d6ae7b); */
 
     img {
         margin-left: 2%;
@@ -369,7 +366,8 @@ footer {
 
 /* 
       MEDIA QUERIES
-  */
+ */
+
 @media screen and (max-width: 600px) {
     .cajaAnimada {
         display: none;
