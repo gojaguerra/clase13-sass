@@ -50,8 +50,6 @@ footer {
   background: #898b87;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  /*display: flex;
-  justify-content: center;*/
   align-items: flex-start; }
   .footerStyle .footerCenter {
     width: 100%;
