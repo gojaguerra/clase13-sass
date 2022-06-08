@@ -379,7 +379,11 @@ footer {
  */
 @media screen and (max-width: 600px) {
   .cajaAnimada {
-    display: none; } }
+    display: none; }
+  .h3FotosInicio h3, .h3FotosSomos h3 {
+    width: 70%; }
+  .hijoFotosInicio img, .hijoFotosSomos img {
+    width: 70%; } }
 
 @media screen and (max-width: 900px) {
   .seccionesCabecera {
@@ -388,12 +392,11 @@ footer {
   .seccionesCabecera h1 {
     width: 90%;
     height: 90%;
-    font-size: 3rem;
-    /*color: whitesmoke;*/ }
+    font-size: 3rem; }
   .cajaFotosInicio, .cajaFotosSomos {
     flex-flow: column wrap;
     padding: 1%;
-    align-items: stretch; }
+    align-items: baseline; }
   .h3FotosInicio, .h3FotosSomos {
     width: auto; }
   .h3Productos {
