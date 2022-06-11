@@ -388,7 +388,8 @@ footer {
     .hijoFotosSomos img {
       width: 100%;
       max-width: 330px;
-      height: auto; } }
+      height: auto;
+      margin-left: auto; } }
 
 @media screen and (max-width: 900px) {
   .seccionesCabecera {
