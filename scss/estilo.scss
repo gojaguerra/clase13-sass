@@ -367,14 +367,14 @@ footer {
       MEDIA QUERIES
  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .cajaAnimada {
         display: none;
     }
     
-    .h3FotosInicio h3, .h3FotosSomos h3 {
-        /*width: 70%;*/
-    }
+    /*.h3FotosInicio h3, .h3FotosSomos h3 {
+        width: 70%;
+    }*/
 
     .hijoFotosInicio img, .hijoFotosSomos img {
         width: 100%;
