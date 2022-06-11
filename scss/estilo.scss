@@ -407,7 +407,8 @@ footer {
     .cajaFotosSomos {
         flex-flow: column wrap;
         padding: 1%;
-        align-items: baseline;
+        /*align-items: baseline;*/
+        justify-content: center;
     }
 
     .h3FotosInicio,
