@@ -223,18 +223,14 @@ tr:nth-child(even) {
   border: 1px #E4E4E0 solid;
   border-radius: 4px;
   padding: 10px;
-  /*margin-left: 1%;*/
-  margin-top: 1%;
-  /*width: 96%;*/ }
+  margin-top: 1%; }
 
 .cajaFotosProductos {
   display: flex;
   background: #E4E4E0;
   margin-top: 1%;
   margin-left: 1%;
-  /* margin: auto; */
   flex-flow: row wrap;
-  /* justify-content: flex-start; */
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
@@ -382,15 +378,14 @@ footer {
 @media screen and (max-width: 500px) {
   .cajaAnimada {
     display: none; }
-  /*.h3FotosInicio h3, .h3FotosSomos h3 {
-        width: 70%;
-    }*/
   .hijoFotosInicio,
   .hijoFotosSomos {
     width: 96%;
-    max-width: 330px; }
-    .hijoFotosInicio .img,
-    .hijoFotosSomos .img {
+    max-width: 330px;
+    /*justify-content: center;
+        align-items: baseline;*/ }
+    .hijoFotosInicio img,
+    .hijoFotosSomos img {
       width: 100%;
       max-width: 330px;
       height: auto; } }
