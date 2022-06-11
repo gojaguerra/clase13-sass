@@ -395,13 +395,15 @@ footer {
 
     .seccionesCabecera {
         align-items: flex-end;
-        flex-flow: column wrap;
+        /*flex-flow: column wrap;*/
     }
 
     .seccionesCabecera h1 {
         width: 90%;
-        height: 90%;
+        height: 50%;
         font-size: 3rem;
+        color: whitesmoke;
+        font-weight: bolder;
     }
 
     .cajaFotosInicio,
