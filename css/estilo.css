@@ -396,11 +396,12 @@ footer {
     align-items: flex-end;
     /*flex-flow: column wrap;*/ }
   .seccionesCabecera h1 {
-    width: 90%;
-    height: 50%;
+    width: 60%;
+    /*height: 80%;*/
     font-size: 3rem;
     color: whitesmoke;
-    font-weight: bolder; }
+    font-weight: bolder;
+    padding: 2%; }
   .cajaFotosInicio,
   .cajaFotosSomos {
     flex-flow: column wrap;
