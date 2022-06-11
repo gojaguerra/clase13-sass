@@ -116,7 +116,8 @@ tr:nth-child(even) {
       PAGINA INICIO
    */
 
-.cajaFotosInicio, .cajaFotosSomos {
+.cajaFotosInicio,
+.cajaFotosSomos {
     display: flex;
     background: #E4E4E0;
     margin: auto;
@@ -130,13 +131,15 @@ tr:nth-child(even) {
 
 }
 
-.hijoFotosInicio, .hijoFotosSomos {
+.hijoFotosInicio,
+.hijoFotosSomos {
     width: 400px;
     border-radius: 4px;
 
 }
 
-.h3FotosInicio, .h3FotosSomos {
+.h3FotosInicio,
+.h3FotosSomos {
     width: 800px;
     border-radius: 4px;
     font-family: $font-family-inicio;
@@ -145,7 +148,8 @@ tr:nth-child(even) {
 
 }
 
-.hijoFotosInicio, .hijoFotosSomos {
+.hijoFotosInicio,
+.hijoFotosSomos {
     p {
         font-family: $font-family-inicio;
         padding: 3px;
@@ -371,18 +375,23 @@ footer {
     .cajaAnimada {
         display: none;
     }
-    
+
     /*.h3FotosInicio h3, .h3FotosSomos h3 {
         width: 70%;
     }*/
 
-    .hijoFotosInicio img, .hijoFotosSomos img {
-        width: 100%;
+    .hijoFotosInicio,
+    .hijoFotosSomos {
+        width: 96%;
         max-width: 330px;
-        height: auto;
 
-        /*width: 70%;*/
+        .img {
+            width: 100%;
+            max-width: 330px;
+            height: auto;
+        }
     }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -398,13 +407,15 @@ footer {
         font-size: 3rem;
     }
 
-    .cajaFotosInicio, .cajaFotosSomos {
+    .cajaFotosInicio,
+    .cajaFotosSomos {
         flex-flow: column wrap;
         padding: 1%;
         align-items: baseline;
     }
 
-    .h3FotosInicio, .h3FotosSomos {
+    .h3FotosInicio,
+    .h3FotosSomos {
         width: auto;
     }
 
@@ -412,7 +423,8 @@ footer {
         width: 100%;
     }
 
-    .h3FotosInicio h3, .h3FotosSomos h3 {
+    .h3FotosInicio h3,
+    .h3FotosSomos h3 {
         font-size: 1rem;
     }
 
