@@ -75,8 +75,6 @@ footer {
 .footerNav .footerItem {
   display: flex;
   justify-content: center;
-  /*display: flex;
-  justify-content: center;*/
   align-items: center;
   width: 35px;
   height: 35px;
@@ -310,7 +308,6 @@ tr:nth-child(even) {
   background: #E4E4E0;
   margin: auto;
   flex-flow: row wrap;
-  /* justify-content: flex-start; */
   justify-content: space-around;
   align-items: center;
   align-content: flex-start;
@@ -381,9 +378,7 @@ footer {
   .hijoFotosInicio,
   .hijoFotosSomos {
     width: 96%;
-    max-width: 330px;
-    /*justify-content: center;
-        align-items: baseline;*/ }
+    max-width: 330px; }
     .hijoFotosInicio img,
     .hijoFotosSomos img {
       width: 100%;
